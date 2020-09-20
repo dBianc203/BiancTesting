@@ -1,4 +1,4 @@
-<!DOCTYPE ATM Front page>
+<!DOCTYPE CheckOrSavingDepo>
 <html>
 <style>
 .btn-group button {
@@ -12,10 +12,14 @@
   height: 100px;
   position: relative;
   margin: 0;
-  top: 175;
+  top: 300;
   left: 250;
 }
-
+.Question {
+  position: relative;
+  top: 250;
+  left: 335;
+}
 .btn-group button:not(:last-child) {
   border-bottom: none; /* Prevent double borders */
 }
@@ -26,16 +30,12 @@
 }
 </style>
 <body>
+  <div class="Question">
+  What account do you want to choose from?
+</div>
 <div class="btn-group">
-  <a a href="CheckOrSavingWith.html"><button>Withdraw</button>
-
-    <a a href="CheckOrSavingDepo.html"><button>Deposit</button>
-
-    <a a href="BalanceCheckOrSaving.html"><button>Check Balance</button>
-
-    <a a href="SuccessfulWithdraw.html"><button>Quick Withdraw From Checking</button>
-
-    <button>Exit</button>
+  <a a href="DepositAmountCheck.html"><button>Checking</button>
+  <a a href="DepositAmountSave.html"><button>Savings</button>
 </div>
 
 </body>
